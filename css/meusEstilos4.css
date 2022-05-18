@@ -1,0 +1,42 @@
+
+/* -display
+ -block 
+ -inline 
+ -inline-block 
+ -flex 
+ 
+ display:block - especifica que o elemento vai ocupar toda a linha
+ - div 
+ - titulos
+ - parágrafo
+ - form
+ - reader
+ - section
+ - footer*/
+
+ /* display: inLine - especifico que o elemento não ocupada a linha toda e nem se inicia uma próxima linha 
+- a
+- img
+- span */
+
+ .emBloco{
+     background-color: blue;
+     color:antiquewhite;
+ }
+
+ .emLinha{
+     background-color: blueviolet;
+     color:antiquewhite;
+ }
+
+ .blocoEmLinha{
+     display:inLine;
+ }
+
+ li{
+     display:inline-block;
+     background-color: coral;
+     /* as propriedade de altura, largura e margem não funcionam quanto o elemento tem a propriedade display como inLine */
+     width: 100px;
+     height: 50px;
+ }
