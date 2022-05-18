@@ -1,0 +1,37 @@
+@font-face{
+    font-family: "minhaFonte";
+    src:url("../fontes/Fresh Fruit.otf")
+}
+
+body{
+    background:aqua;
+}
+h1{
+    color:red;
+    text-align: center;
+    font-size:40px;
+    font-family: "minhaFonte";
+}
+p{
+    font-size: 20px;
+    color:brown;
+    font-family: 'Macondo', cursive;
+}
+
+.tituloParagrafo{
+    color:darkgreen;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.parag2{
+    background-color: brown;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#especial{
+    color:red;
+    font-size: 10px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
