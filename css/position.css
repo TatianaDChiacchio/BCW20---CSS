@@ -1,0 +1,67 @@
+/*POSITION
+
+-> Static
+-> Relative - em relativo ao elemento pai
+-> Fixed - fixado na página
+-> Absolute
+-> sticky (pegaso) */
+
+h1{
+    text-align: center;
+}
+.container{
+   /*  position:relative; */
+    background-color: blue;
+    width: 80%;
+    height: 400px;
+}
+
+.divs{
+    display:inline-block;
+    width: 30%;
+    height: 100px;
+    border:1px solid black;
+    color:white;
+}
+
+.div1{
+    position: relative;
+    top:50px;
+    left:50px;
+    background-color: blueviolet;
+    z-index: 2;
+}
+
+.div2{
+    /* position:relative; */
+    position:sticky;
+    top:0px;
+    background: black ;
+    z-index: 1;
+}
+
+.div3{
+    position:absolute;
+    top:10px;
+    right: 20px;
+    background: red;
+}
+
+.whats{
+    background: green;
+    display:inline-block;
+    width: 50px;
+    height: 50px;
+    color:bisque;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    position:fixed;
+    bottom: 5px;
+    right: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+

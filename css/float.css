@@ -1,0 +1,35 @@
+ul{
+    background: black;
+    height: 30px;
+}
+
+li{
+    float: left;
+    list-style-type: none;
+}
+
+li a{
+    color:white;
+    text-decoration: none;
+   /*  padding-right: 20px;
+    padding-left: 20px; */
+    padding-inline: 20px;
+    line-height: 30px;
+    border-radius: 10px;
+
+}
+
+li a:hover{
+    background: gray;
+    height: 30px;
+}
+
+.login{
+    float:right;
+}
+
+.login a:hover{
+    background-color: orangered;
+
+}
+
