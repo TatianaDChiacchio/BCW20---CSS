@@ -1,6 +1,12 @@
-ul{
+ul, .container{
     background: black;
     height: 30px;
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 li{
@@ -16,20 +22,40 @@ li a{
     padding-inline: 20px;
     line-height: 30px;
     border-radius: 10px;
+    text-align: center;
 
 }
 
-li a:hover{
+a:hover{
     background: gray;
     height: 30px;
 }
-
-.login{
-    float:right;
+.caixaLogin{
+    
+    position: relative;
+    left: 83%;
 }
 
-.login a:hover{
+
+.caixaLogin a:hover{
     background-color: orangered;
 
 }
+
+.conteudoFluante{
+    border:1px solid black;
+    overflow:auto;
+}
+
+.conteudoFluante img{
+    float:left;
+    margin:20px;
+}
+ img{
+     margin:5px;
+ }
+
+ img:hover{
+     opacity: 0.4;
+ }
 
